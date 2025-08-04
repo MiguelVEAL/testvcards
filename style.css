@@ -1,0 +1,54 @@
+body{
+    background: #0A9D56;
+    background: linear-gradient(0deg,rgba(10, 157, 86, 1) 0%, rgba(87, 199, 133, 1) 13%, rgba(0, 0, 0, 1) 100%);
+    background-size:cover;
+    
+}
+main{
+    background: #fff;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    margin-inline: 10px;
+    margin-block: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+#ImagenVendedor{
+    width: 30%;
+    height: auto;
+}
+.Contactobtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    gap: 25px
+}
+.botoncontacto{
+    width: 80%;
+    height: auto;
+    background-color: #0a9d56;
+    border-radius: 20px;
+    padding: 15px;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-direction: column;
+
+    
+}
+.buttonactions{
+    width:100%;
+    border-radius: 15px;
+    background-color: #0A9D56;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
